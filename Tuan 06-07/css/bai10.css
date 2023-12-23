@@ -1,0 +1,22 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+div.outer {
+    text-align: center;
+}
+
+form input {
+    font-size: 40px;
+}
+
+form textarea{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}

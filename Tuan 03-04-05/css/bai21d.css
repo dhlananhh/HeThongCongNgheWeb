@@ -1,0 +1,54 @@
+* {
+    margin: auto;
+    padding: 1;
+    box-sizing: border-box;
+}
+
+div.container {
+    width: 100%;
+    height: 700px;
+    border: 1px solid black;
+    border-bottom: none;
+    background-color: #8eaadb;
+    font-size: 20px;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    border-bottom: 1px solid black;   
+}
+
+nav {
+    width: 20%;
+    height: 500px;
+    text-align: left;
+    border-right: 1px solid black;
+    float: left;
+}
+
+section {
+    width: 80%;
+    height: 500px;
+    text-align: left;
+    border-right: 1px solid black;
+    float: left;
+}
+
+article {
+    border: 1px solid black;
+    background-color: #fbe4d5;
+    width: 98%;
+    height: 85%;
+    margin: 1%;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    text-align: left;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    clear: both;
+}

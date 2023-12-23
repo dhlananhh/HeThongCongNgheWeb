@@ -1,0 +1,17 @@
+#adv-leaf {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 20px;
+
+    background:orange;
+    border-width:4px 30px 4px 30px;
+    border-style: solid;
+    border-color: #56c6d9 #56c6d9 #fe2192 #fe2192;
+    border-radius:0 120px 0 120px;
+    -moz-border-radius:0 120px 0 120px;
+    -webkit-border-radius:0 120px 0 120px;
+}  

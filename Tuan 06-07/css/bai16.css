@@ -1,0 +1,39 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+div.outer {
+    background-color: white;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    padding: 10px;
+}
+
+input[type='text'] {
+    font-size: 30px;
+    margin-top: 10px;
+    width: 90%;
+}
+
+input[type='button'] {
+    padding: 10px;
+    font-size: 20px;
+    display: block;
+    margin-left: 40%;
+}
+  
+.btn {
+    width: auto;
+    padding: 5px
+}

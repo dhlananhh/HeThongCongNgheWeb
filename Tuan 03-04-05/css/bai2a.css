@@ -1,0 +1,65 @@
+* {
+    margin: 0 auto;
+    padding: 1px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+div {
+    width: 460px;
+    height: auto;
+    background-color: white;
+    padding: 10px;
+}
+
+#container {
+    width: 500px;
+    height: 300px;
+    background-color: gray;
+}
+
+#line1 {
+    text-indent: 1cm;
+    color: red;
+    text-align: justify;
+}
+
+#line2 {
+    text-align: right;
+    color: blue;
+}
+
+#line3 {
+    text-align: center;
+    color: green;
+}
+
+#line4 {
+    text-align: left;
+    color: brown;
+}
+
+#line5 {
+    text-decoration: underline;
+    color: pink;
+}
+
+#line6 {
+    text-decoration: line-through;
+    color: purple;
+}
+
+#line7 {
+    text-decoration: overline;
+    color: red;
+}
+
+#line8 {
+    text-decoration: blink;
+    text-align: justify;
+    color: blue;
+    text-shadow: 4px 4px 8px blue;
+}

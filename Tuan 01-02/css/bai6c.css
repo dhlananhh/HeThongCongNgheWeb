@@ -1,0 +1,40 @@
+body {
+    background-color: #ffcc66;
+}
+
+caption {
+    color: #ff66cc;
+    font-weight: bolder;
+}
+
+table {
+    border: 1px solid #ff66cc;
+    border-collapse: collapse;
+    width: 50; 
+}
+
+table tr {
+    background-color: #ff99cc; font-style: italic; color: #3399ff; font-weight: bold
+}
+
+.table-heading {
+    background-color: #ff66cc;
+    text-decoration: underline;
+    color: black;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+.row1, .row2, .row3, .row4, .row5 {
+    background-color: #ff99cc;
+    font-style: italic;
+    color: #3399ff; 
+    font-weight: bold;
+}
+
+#id1, #id2, #id3, #id4, #id5 {
+    background-color: #99ccff; 
+    color: black; 
+    font-style: normal; 
+    font-weight: normal;
+}

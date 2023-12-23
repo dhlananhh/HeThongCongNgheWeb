@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tuan 2</title>
+        <link rel="stylesheet" href="../css/bai16.css">
+        <meta name="21087481_Duong Hoang Lan Anh" content="HTML Basic">
+    </head>
+
+
+    <body>
+        <div id="content" class="container">
+            <div id="Headings">
+                <h1>Travel reservation form</h1> <br/>
+                <h3>* denotes mandotory</h3> <br/>
+            </div>
+
+            <form action="#" id="registration_form" method="post">
+                <div id="FullName">
+                    <label>Full name*: </label> <br/>
+                    <input type="text" name="Full name" id="FullName" placeholder="FirstName LastName" required>
+                </div>
+
+                <div id="Email">
+                    <label>Email address*: </label> <br/>
+                    <input type="email" name="Email address" id="EmailAddress" placeholder="EMAIL_ADDRESS" required>
+                </div>
+
+                <div id="Package">
+                    <label>Select Tour Package*: </label> <br/>
+                    <select name="Tour Package" id="TourPackage">
+                        <option value="Goa" selected>Goa</option>
+                        <option value="Kashmir">Kashmir</option>
+                        <option value="Rajasthan">Rajasthan</option>
+                    </select>
+                </div>
+
+                <div id="Date">
+                    <label>Arrival date*: </label> <br/>
+                    <input type="text" placeholder="m/d/y">
+                </div>
+
+                <div id="People">
+                    <label>Number of persons*: </label> <br/>
+                    <input type="text" placeholder="UNKNOWN_TYPE" required>
+                </div>
+
+                <div id="Availing">
+                    <label>What would you want to avail ?*</label> <br/> Boarding
+                    <input type="checkbox" name="facilities[]" id="Boarding"> <br/> Fooding
+                    <input type="checkbox" name="facilities[]" id="Fooding"> <br/> Sight seeing
+                    <input type="checkbox" name="facilities[]" id="Sightseeing"> <br/>
+                </div>
+
+                <div id="DiscountCode">
+                    <label>Discount Coupon code: </label> <br/>
+                    <input type="text" name="DiscountCode" id="disc_code" placeholder="UNKNOWN_TYPE">
+                </div>
+
+                <div id="Terms">
+                    <label>Terms and conditions*</label> <br/>
+                    <input type="radio" name="tnc" id="agree" checked>I agree
+                    <input type="radio" name="tnc" id="disagree">I disagree
+                </div>
+
+                <div>
+                    <button type="submit" name="Submit Form" id="submit_button">Complete reservation</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

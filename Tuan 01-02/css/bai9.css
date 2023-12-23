@@ -1,0 +1,16 @@
+table {
+    border-collapse: collapse;
+    border: 2px solid #ff9900;
+    text-align: center;
+    float: left;
+    margin-right: 200px;
+}
+
+thead {
+    background-color: #66ffff;
+}
+
+tbody {
+    background-color: #ffff99;
+    border-width: 1px;
+}

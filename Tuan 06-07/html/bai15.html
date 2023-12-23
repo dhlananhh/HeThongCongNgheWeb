@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tuan 8</title>
+        <meta name="21087481_Duong Hoang Lan Anh" content="HTML Basic">
+        <script src="../js/bai15.js" language="JavaScript" type="text/javascript"></script>
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <script src="../js/bootstrap.min.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <label for="text-input">Input the email address: </label>
+            <input type="text" class="form-control form-control-lg" name="text-input" id="text-input" placeholder="abc@gmail.com" onload="checkEmailAddress();">
+            <br>
+
+            <button type="button" class="btn btn-info" onclick="checkEmailAddress();">Check</button>
+            <br> <br>
+
+            <label for="text-output">Check the email address: </label>
+            <input type="text" class="form-control form-control-lg" name="text-output" id="text-output" disabled onkeyup="checkEmailAddress();">
+        </div>
+    </body>
+</html>

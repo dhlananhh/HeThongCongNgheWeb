@@ -1,0 +1,26 @@
+* {
+    margin: 0 auto;
+    padding: 1px;
+    box-sizing: border-box;
+}
+
+div.container {
+    background-color: #ffcc66;
+    padding: 10px 20px 10px 20px;
+    width: 60%
+}
+
+h3.title {
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+    text-align: center;
+}
+
+#form_button {
+    padding: 3px;
+    margin: 2px 3px 2px 3px;
+}

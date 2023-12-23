@@ -1,0 +1,56 @@
+* {
+    margin: 0 auto;
+    padding: 1px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:  #f1f1f1;
+    padding: 2px;
+    font-size: 30px;
+}
+
+div {
+    background-color: white;
+    padding: 20px;
+}
+
+.images {
+    width: 150px;
+    height: 150px;
+}
+
+#image2 {
+    float: left;
+}
+
+#div-text1 {
+    float: right;
+    margin: 40px 20px 0 0;
+}
+
+#div-text2 {
+    clear: both;
+}
+
+#span-image2 {
+    padding: 2px;
+}
+
+#span-text3-2 {
+    float: right;
+    margin-right: 40px;
+}
+
+#div-text4 {
+    float: left;
+    width: 90%;
+}
+
+#image5 {
+    float: left;
+}
+  
+#div-text5 {
+    padding-bottom: 50px;
+}

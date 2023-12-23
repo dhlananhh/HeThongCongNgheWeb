@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul {
+    border: 1px solid darkgreen;
+    background-color: green;
+    font-family: 'Times New Roman', Times, serif;
+    list-style-type: none;
+    text-align: center;
+}
+
+#menu li {
+    color: white;
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+#menu ul li a:hover {
+    background-color: green;
+    color: orange;
+}
+
+#menu ul li > .sub-menu {
+    display: none;
+    position: absolute;
+}
+
+#menu li {
+    position: relative;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+}
+
+#menu ul li:hover .sub-menu {
+    display: block;
+}

@@ -1,0 +1,43 @@
+* {
+    padding: 1px;
+    box-sizing: border-box;
+    margin: 10px auto;
+}
+
+.container {
+    width: 50%;
+    background-color: white;
+}
+
+#heading {
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    color: #993738;
+    text-align: center;
+    font-weight: bold;
+    margin: auto;
+}
+
+table {
+    border-collapse: collapse;
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 400px;
+}
+
+tr.t_head {
+    background-color: #993738;
+    color: white;
+    font-weight: bold;
+}
+
+tr.odd {
+    background-color: #cccccc;
+}
+
+tr.even  {
+    background-color: white;
+}
+
+td.format {
+    text-align: right;
+}

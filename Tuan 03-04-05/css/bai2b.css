@@ -1,0 +1,101 @@
+table {
+    padding: 20px;
+    margin: auto;
+}
+
+#style01 {
+    height: auto;
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #000000;
+    text-shadow: 0 6px 4px #85c226, -3px -5px 4px #fe2192, 3px -5px 4px #f7c200;
+    float: left;
+    margin-right: 20px;
+}
+
+#style02 {
+    height: auto;
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background: #CCCCCC;
+    color: #CCCCCC;
+    text-shadow: -1px -1px 3px #666666, 1px 1px 3px #FFFFFF;
+    float: left;
+    margin-right: 20px;
+}
+
+#style03 {
+    height: auto;
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-shadow: 0px -5px 0px #fe2192;
+    float: left;
+    margin-right: 20px;
+}
+
+#style04 {
+    height: auto;
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    color: orange;
+    float: left;
+    margin-right: 20px;
+}
+
+#style04 span {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 21;
+    background: url('https://www.entheosweb.com/tutorials/css/images/text_effects/glossy.png');
+}
+
+#style05 {
+    height: auto;
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    color: red;
+    background: #000;
+    float: left;
+    margin-right: 20px;
+}
+
+#style05 span {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 21;
+    background: url('https://www.entheosweb.com/tutorials/css/images/text_effects/grunge.png');
+}
+
+#style06 {
+    height: auto;
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-shadow: 0 0 7px #1E90FF;
+    background: #000000;
+    color: #1E90FF;
+    float: left;
+    margin-right: 20px;
+}
+
+#style07 {
+    background-color: #800080;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,14 @@
+#adv-round-rectangle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 20px;
+
+    border-width: 0px 12px 0px 12px;
+    border-style: double;
+    border-color: violet;
+    border-radius: 40px 40px 60px 60px;
+    -moz-border-radius:40px 40px 60px 60px;
+    -webkit-border-radius:40px 40px 60px 60px;
+}
